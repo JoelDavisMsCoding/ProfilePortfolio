@@ -15,7 +15,8 @@ h1 { color:#1ca6c1;}
 .container2
 {
     padding-bottom: 20px;
-    background: url("https://media.istockphoto.com/id/871030872/photo/programming-code-abstract-technology-background-of-software-developer.jpg?s=612x612&w=0&k=20&c=lkfUNy8Sf3TpFBeIfpBAy6FB5XQwbwjdzypK_1uOQd8=") no-repeat 50%;
+    /*background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;*/
+    background: url("https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format");
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -23,7 +24,7 @@ h1 { color:#1ca6c1;}
 }
 .profilePic  {width: 110%; border-style: ridge; border-color: aliceblue; border-width: 10px;}
 .ct2Sec1 {padding-top: 20px;}
-.ct2Sec2 {color: aliceblue;}
+.ct2Sec2 {padding-top: 20px;color: aliceblue;}
 
 .container3 {border-top-style: double;}
 .container3 h1 {text-align: -webkit-center; color:#1ca6c1;}
