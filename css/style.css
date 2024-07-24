@@ -1,8 +1,13 @@
-.container1 {padding-top: 3%; padding-bottom: 3%;}
+body {background-image: linear-gradient(to right, #4a0f5e, #02658a);}
+p {color: aliceblue;}
 h1 { color:#1ca6c1;}
-.ct1Sec1
-{
-    background-color: #1ca6c1;
+
+a:visited {color: aliceblue;}
+a:hover {color: #1ca6c1;}
+a:active {color: #52106f;}
+.container1 {padding-top: 3%; padding-bottom: 3%;}
+.ct1Sec1{
+    border-color: #1ca6c1;
     border-top-style: double;
     border-bottom-style: double;
     text-align: -webkit-center;
@@ -16,7 +21,7 @@ h1 { color:#1ca6c1;}
 {
     padding-bottom: 20px;
     /*background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;*/
-    background: url("https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format");
+    background: url("https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format")50%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +35,7 @@ h1 { color:#1ca6c1;}
 
 .container3 {border-top-style: double;}
 .ct3Sec1 h1 {text-align: -webkit-center;}
+.ct3Sec1 p {text-align: justify;}
 .container3 h1 {color:#1ca6c1;}
 .container3 h4 {color:#1ca6c1;}
 
@@ -48,5 +54,20 @@ a {text-decoration: none;}
 .left {align-content: center; padding-left:  5%;}
 .right {text-align: -webkit-right; align-content: center; margin-left: 0px; padding-left: 0%; padding-right: 5%;}
 
+@media (min-width: 992px)
+{.container2
+    {
+    background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    }
+}
+@media (min-width: 992px) {.ct4Sec2 li {display: inline;}}
+@media (min-width: 576px) {.ct1Sec1 {font-size: x-large;}}
 @media (min-width: 576px) {.profilePic {width: 280px;}}
+@media (min-width: 576px) {.container5 h6 {font-size: smaller;}}
+@media (min-width: 768px) {.container5 h6 {font-size: medium;}}
 @media (min-width: 768px) {.ct2Sec2 {text-align: -webkit-left;}}
