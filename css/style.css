@@ -2,10 +2,6 @@ body {background-image: linear-gradient(to right, #4a0f5e, #02658a);}
 p {color: aliceblue;}
 h1 { color:#1ca6c1;}
 
-a:link {color:aliceblue;} 
-a:visited {color: aliceblue;}
-a:hover {color: #1ca6c1;}
-a:active {color: #52106f;}
 .container1 {padding-top: 3%; padding-bottom: 3%;}
 .ct1Sec1{
     border-color: #1ca6c1;
@@ -15,27 +11,30 @@ a:active {color: #52106f;}
     font-weight: bold;
     font-size: larger;
 }
+.container1 a:link {color:aliceblue;} 
+.container1 a:visited {color: aliceblue;}
+.container1 a:hover {color: #1ca6c1;}
+.container1 a:active {color: #52106f;}
 .ct1Sec1 ul {padding-left: 0rem; margin-bottom: 0rem;}
 .ct1Sec1 li {color: aliceblue; display: inline; list-style: none; padding: 3%;}
 
 .container2
 {
+    border-style: solid;
+    height: 450px;
     padding-bottom: 20px;
-    /*background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;*/
-    /*background: url("https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format")50%;*/
-    background: url("C://Users//jbree//OneDrive//*Documents//GitHub//ProfilePortfolio//media//5c3120359be5c4f225cd7b817811217041b759ab-1192x668.webp")50%;
+    background: url("C://Users/jbree/OneDrive/Documents/GitHub/ProfilePortfolio/media/profileBG.jpg")50%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
 }
-.profilePic {width: 100%; border-style: ridge; border-color: aliceblue; border-width: 10px;}
+.profilePic {width: 100%; border-style: double; border-color: aliceblue; border-width: 10px;}
 .ct2Sec1 {padding-top: 5%; text-align-last: right;}
 .ct2Sec2 {padding-top: 5%; color: aliceblue;}
 .ct2Sec2 {align-content: center; text-align: -webkit-center;}
 
-.container3 {border-top-style: double;}
 .ct3Sec1 h1 {text-align: -webkit-center;}
 .ct3Sec1 p {text-align: justify;}
 .container3 h1 {color:#1ca6c1;}
@@ -48,6 +47,10 @@ a:active {color: #52106f;}
 
 .container5 > .row {padding-left: 5px; border-top-style: double; border-bottom-style: double; border-color:black; background-color: #1ca6c1; color: aliceblue;}
 .container5 h6 {margin-bottom: 0px; font-size: 12px;}
+a:link {color:aliceblue;} 
+a:visited {color: aliceblue;}
+a:hover {color: #1ca6c1;}
+a:active {color: #52106f;}
 .middle ul {list-style: none; padding-inline-start: 0; text-align-last: center; margin-bottom: 5px; margin-top: 5px;}
 .middle li {display: inline;}
 .middle li img {width: 32px;height: 32px;}
@@ -55,7 +58,7 @@ a {text-decoration: none;}
 .left {align-content: center; padding-left:  5%;}
 .right {text-align: -webkit-right; align-content: center; margin-left: 0px; padding-left: 0%; padding-right: 5%;}
 
-/*@media (min-width: 992px)
+@media (max-width: 576px)
 {.container2
     {
     background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;
@@ -66,7 +69,7 @@ a {text-decoration: none;}
     background-attachment: fixed;
     z-index: 1;
     }
-}*/
+}
 @media (min-width: 576px) {.ct1Sec1 {font-size: x-large;}}
 @media (min-width: 576px) {.profilePic {width: 280px;}}
 @media (min-width: 576px) {.container5 h6 {font-size: smaller;}}
