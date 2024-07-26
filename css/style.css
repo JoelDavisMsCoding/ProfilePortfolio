@@ -21,7 +21,7 @@ h1 { color:#1ca6c1;}
 .container2
 {
     border-style: solid;
-    height: 480px;
+    /*height: 480px;*/
     padding-bottom: 20px;
     background: url("./profileBG.jpg")50%;
     position: relative;
@@ -30,11 +30,12 @@ h1 { color:#1ca6c1;}
     background-attachment: fixed;
     z-index: 1;
 }
-.profilePic {width: 100%; border-style: double; border-color: aliceblue; border-width: 10px;}
+.profilePic {width: 100%; border-style: double; border-color: aliceblue; border-width: 10px; border-radius: 5px;}
 .ct2Sec1 {padding-top: 5%; text-align-last: right;}
 .ct2Sec2 {padding-top: 5%; color: aliceblue;}
 .ct2Sec2 {align-content: center; text-align: -webkit-center;}
 
+.container3 {padding-top: 2%;}
 .ct3Sec1 h1 {text-align: -webkit-center;}
 .ct3Sec1 p {text-align: justify;}
 .container3 h1 {color:#1ca6c1;}
@@ -62,7 +63,6 @@ a {text-decoration: none;}
 {.container2
     {
     background: url("https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format")50%;
-    height: 450px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,8 +70,11 @@ a {text-decoration: none;}
     z-index: 1;
     }
 }
+@media (min-width: 992px) {.container2 {height: 450px;}}
+@media (min-width: 1400px) {.container2 {height: 500px;}}
 @media (min-width: 576px) {.ct1Sec1 {font-size: x-large;}}
 @media (min-width: 576px) {.profilePic {width: 280px;}}
+@media (min-width: 992px) {.profilePic {width: 300px;}}
 @media (min-width: 576px) {.container5 h6 {font-size: smaller;}}
 @media (min-width: 768px) {.container5 h6 {font-size: medium;}}
 @media (min-width: 768px) {.ct2Sec2 {text-align: -webkit-left;}}
