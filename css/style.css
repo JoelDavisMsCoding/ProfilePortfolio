@@ -41,7 +41,7 @@ h1 { color:#1ca6c1;}
 .container3 h1 {color:#1ca6c1;}
 .container3 h4 {color:#1ca6c1;}
 
-.container4 {border-top-style: double;}
+.container4 {border-top-style: double; padding-bottom: 3%;}
 .ct4Sec1 {text-align: -webkit-center;}
 .ct4Sec2 {text-align-last: center;}
 .container4 img {width: 300px; border: solid 5px #555; margin: 20px 0; box-shadow: 3px 3px 5px 6px #ccc;}
