@@ -48,10 +48,7 @@ h1 { color:#1ca6c1;}
 
 .container5 > .row {padding-left: 5px; border-top-style: double; border-bottom-style: double; border-color:black; background-color: #1ca6c1; color: aliceblue;}
 .container5 h6 {margin-bottom: 0px; font-size: 12px;}
-a:link {color:aliceblue;} 
-a:visited {color: aliceblue;}
-a:hover {color: #1ca6c1;}
-a:active {color: #52106f;}
+
 .middle ul {list-style: none; padding-inline-start: 0; text-align-last: center; margin-bottom: 5px; margin-top: 5px;}
 .middle li {display: inline;}
 .middle li img {width: 32px;height: 32px;}
