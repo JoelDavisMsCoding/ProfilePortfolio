@@ -58,7 +58,7 @@ a {text-decoration: none;}
 
 .container4 img.jump {margin-top: -5px;}
 
-a:hover
+.container4 a:hover
 {
     box-shadow: 10px 0px 100px 50px rgb(255, 255, 255);
 }
