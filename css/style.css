@@ -56,12 +56,11 @@ a {text-decoration: none;}
 .left {align-content: center; padding-left:  5%;}
 .right {text-align: -webkit-right; align-content: center; margin-left: 0px; padding-left: 0%; padding-right: 5%;}
 
+.container4 img.jump {margin-top: -5px;}
 
 a:hover
 {
-    background: var(--clr);
     box-shadow: 10px 0px 100px 50px rgb(255, 255, 255);
-    letter-spacing: 0.25em;
 }
 
 @media (max-width: 576px)
